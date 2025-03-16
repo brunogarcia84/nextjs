@@ -1,4 +1,3 @@
-export default async function ProductDetails({ params }) {
-  const productId = (await params).productId;
-  return <h1>Single Product Page Details. Showing product: {productId}</h1>;
+export default async function ProductDetails() {
+  return <h1>Single Product Page Details. Showing product: undefined</h1>;
 }

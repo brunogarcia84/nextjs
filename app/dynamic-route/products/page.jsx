@@ -1,4 +1,6 @@
-export default function Products() {
+import Link from "next/link";
+
+export default async function Products() {
   return (
     <>
       <h1>Products List</h1>
@@ -17,9 +19,15 @@ export default function Products() {
       <p>In this case, we will create a Dynamic Segment.</p>
 
       <ul>
-        <li>Product 1</li>
-        <li>Product 2</li>
-        <li>Product 3</li>
+        <li>
+          <Link href="/dynamic-route/products/1">Product 1</Link>
+        </li>
+        <li>
+          <Link href="/dynamic-route/products/2">Product 2</Link>
+        </li>
+        <li>
+          <Link href="/dynamic-route/products/3">Product 3</Link>
+        </li>
       </ul>
 
       <p>

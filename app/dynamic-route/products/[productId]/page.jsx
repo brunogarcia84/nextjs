@@ -1,12 +1,10 @@
 export default async function ProductDetails({ params }) {
-  const productId = (await params).slug;
-  console.log(productId);
-
+  const shit = (await params).productId;
   return (
     <>
       <h1>
-        This is the product with id # {productId}, and you are seeing the
-        details page.
+        This is the product with id # {shit}, and you are seeing the details
+        page.
       </h1>
 
       <p>

@@ -8,6 +8,16 @@ export default function Blog() {
       </button>
 
       <h1>Blog Page</h1>
+
+      <p>
+        As you can see, now you have the Root Layout wrapping the entire app,
+        and the Blog Layout covering ONLY the Blog page (and its nested routes).
+      </p>
+
+      <p>
+        To see it in action, access <code>/blog/first</code> and{" "}
+        <code>/blog/second</code>
+      </p>
     </>
   );
 }

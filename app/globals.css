@@ -73,3 +73,12 @@ ul {
 li {
   list-style-type: disc;
 }
+
+span {
+  color: orange;
+}
+
+code {
+  background-color: #303030;
+  padding: 4px;
+}

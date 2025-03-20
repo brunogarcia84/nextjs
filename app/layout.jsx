@@ -21,7 +21,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${montserrat.variable} ${macondo.variable}`}>
+        <h1 className="text-red-600 text-center">Root Layout starts here</h1>
         {children}
+        <h1 className="text-red-600 text-center">Root Layout ends here</h1>
       </body>
     </html>
   );

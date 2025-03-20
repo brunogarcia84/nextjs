@@ -62,6 +62,54 @@ export default function NestedRoutes() {
             </li>
           </ul>
         </div>
+
+        <h2>Nested Routes - Next.js docs website</h2>
+
+        <p>
+          A nested route is a route composed of multiple URL segments. For
+          example, the route <code>/blog/[slug]</code> is composed of three
+          segments:
+        </p>
+
+        <ul>
+          <li>
+            <code>/</code> (Root Segment)
+          </li>
+          <li>
+            <code>/blog</code> (Segment)
+          </li>
+          <li>
+            <code>/[slug]</code> (Leaf Segment)
+          </li>
+        </ul>
+
+        <p>In Next.js:</p>
+
+        <ul>
+          <li>
+            Folders are used to define the route segment that map to URL
+            segments
+          </li>
+          <li>
+            Files like <code>page</code> and <code>layout</code> are used to
+            create UI that is shown for a segment.
+          </li>
+        </ul>
+
+        <h2>Nested Layouts</h2>
+
+        <p>
+          As you can see, it is possible to nest layouts. By default, layouts in
+          the folder hierarchy are also nested, which means they wrap child
+          layouts via their <code>children</code> prop. You can nest layouts by
+          adding <code>layout</code> inside specific route segments (folders).
+        </p>
+
+        <p>
+          In this page you only can see the Root Layout, the dominant one which
+          will render in every single page you create. Access the blog page and
+          you will see two layouts together.
+        </p>
       </div>
     </>
   );

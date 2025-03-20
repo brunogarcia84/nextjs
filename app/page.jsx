@@ -24,7 +24,7 @@ export default function Home() {
             </li>
 
             <li>
-              <Link href="/dynamic-routes">3. Dynamic Routing</Link>
+              <Link href="/dynamic-route">3. Dynamic Routing</Link>
             </li>
 
             <li>
